@@ -34,3 +34,14 @@ check when the bathing temperature has been reached.
 Now, this intention back-fired slightly due to delivery issues(for LTE connection) as well as the fact that my house, although it is in an area where LoRa and SigFox exists, is in a deep valley and as such in radio shadow (unable to connect to these types of services) the end result for my actual project, due to the distance to above mentioned hot-tub, is more towards the first comical description off application.
 
 However, for individuals that do not have their hot-tub, beach, pier or other measurement point where this type of dual sensor might come in handy outside wifi range, the current implementation will work marvelously.
+
+
+# Project Materials
+
+So to begin with, i will present a table below containing the materials used for my project. I will also add a table below the first one that describes possible additions and alternatives to some of the devices i used.
+
+| **Item**        | **Cost**           | **Description**  |
+| :------------ |--------------:| :-----|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
