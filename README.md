@@ -38,11 +38,14 @@ However, for individuals that do not have their hot-tub, beach, pier or other me
 
 # Project Materials
 
-So to begin with, i will present a table below containing the materials used for my project. I will also add a table below the first one that describes possible additions and alternatives to some of the devices i used.
+So to begin with, i will present a table below containing the materials used for my project along with a description and links to where you can buy them(mostly in Sweden or from the main supplier). I will also add a table below the first one that describes possible additions and alternatives to some of the devices i used.
 
 | **Item**        | **Cost**           | **Description**  |
 | :------------ |:-------------| :-----|
 | [Fipy](https://pycom.io/product/fipy/)      | 65 Euro | The actual micro computer |
-| [Expansion board](https://pycom.io/product/expansion-board-3-0/)      | 17,5 Euro      |   expansion board with powersupply and usb connector as well as sockets for pins |
+| [Expansion board](https://pycom.io/product/expansion-board-3-0/)      | 17,5 Euro      |   Expansion board with powersupply and usb connector as well as sockets for pins |
 | [Analog temperature sensor](https://www.electrokit.com/produkt/mcp9700a-to-92-temperaturgivare/) | 1.5 euro      |    A simple analog temperature sensor with pins |
 | [Digital temperature sensor](https://www.electrokit.com/produkt/temperatursensor-vattentat-ds18b20/) | 18 Euro | A digital temperature sensor in water tight casing |
+| [170 mA 5.5v solar panel](https://www.tinytronics.nl/shop/en/power/solar-panels/seeed-studio-solar-panel-5.5v-170ma-80x100mm-with-jst-ph-connector) | 4.5 Euro | 80x100mm solar panel with JST-PH female connector |
+| [Battery charger(max 500mA) with JST-PH mail connectors](https://www.tinytronics.nl/shop/en/power/bms-and-chargers/li-ion-and-li-po/without-protection-circuit/cn3065-li-ion-solar-charger-500ma) | 4 Euro | A board with battercharging capabilities and throughput of power to main device |
+| [Resistor 4,7kohm](https://www.electrokit.com/produkt/motstand-0-6w-1-4-7kohm-100-pack/) | 5 Euro | Resistor needed for the digital sensor(100 pack in link) |
