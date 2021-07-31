@@ -23,7 +23,8 @@ Furthermore I aim to introduce a way of getting this piece of hardware to be alm
 
 Now to get started lets ask ourselves why you would build such a device?
 
-When sitting on your laptop out in the yard with a cold beer, you might want to know the temperature of the outside air aswell as the temperature of the beer?
+When sitting on your laptop out in the yard with a cold beer(or other beverage), you might want to know the temperature of the outside air aswell as the temperature of the beer(or other beverage)?
+
 While this is indeed a honorable and viable reason, it is mainly a joke from my part. 
 
 My reason to build this device and application was first and foremost to monitor
