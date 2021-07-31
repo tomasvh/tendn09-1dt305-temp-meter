@@ -45,3 +45,4 @@ So to begin with, i will present a table below containing the materials used for
 | [Fipy](https://pycom.io/product/fipy/)      | 65 Euro | The actual micro computer |
 | [Expansion board](https://pycom.io/product/expansion-board-3-0/)      | 17,5 Euro      |   expansion board with powersupply and usb connector as well as sockets for pins |
 | [Analog temperature sensor](https://www.electrokit.com/produkt/mcp9700a-to-92-temperaturgivare/) | 1.5 euro      |    A simple analog temperature sensor with pins |
+| [Digital temperature sensor](https://www.electrokit.com/produkt/temperatursensor-vattentat-ds18b20/) | 18 Euro | A digital temperature sensor in water tight casing |
