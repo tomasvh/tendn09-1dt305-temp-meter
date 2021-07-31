@@ -41,7 +41,7 @@ However, for individuals that do not have their hot-tub, beach, pier or other me
 So to begin with, i will present a table below containing the materials used for my project. I will also add a table below the first one that describes possible additions and alternatives to some of the devices i used.
 
 | **Item**        | **Cost**           | **Description**  |
-| :------------ |--------------:| :-----|
+| :------------ |:-------------| :-----|
 | col 3 is      | right-aligned | $1600 |
 | col 2 is      | centered      |   $12 |
 | zebra stripes | are neat      |    $1 |
