@@ -1,16 +1,23 @@
 # main.py -- put your code here!
 
+# Importing built in modules from the device
 import machine
 import time
 import pycom
+from network import LTE
 
+#Importing the modules for the sensors
 import analogTemp
 import ds18b20
+
+# Disabling LTE so it does not draw power.
+lte = LTE()
+lte.deinit()
 
 # Disabling flashing led on Fipy/Lopy
 pycom.heartbeat(False)
 
-# Sleep time 15 minutes
+# Sleep time 15 minutes, this is called a delay, and is actually not a sleep and will thus not save power(Deepsleep did not play well with the digital sensor).
 sleepTime = 15 * 60 
 
 # This never turns to false and as such will continue working.

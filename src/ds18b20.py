@@ -1,8 +1,11 @@
+# Importing the module for the sensor made by Pycom
 from lib import onewire
+
+#Importing built in modules from device
 import time
 from machine import Pin
 
-# Initializing DS18B20 water temperature sensor with the onewire library provided by Pycom.
+# Initializing DS18B20 water temperature sensor with the onewire library provided by Pycom and telling it which pin it is connected to.
 ow = onewire.OneWire(Pin('P10'))
 waterTemp = onewire.DS18X20(ow)
 

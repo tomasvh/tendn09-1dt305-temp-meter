@@ -1,6 +1,7 @@
+#Importing built in module
 import machine
 
-# Initializing the analog temperature sensor.
+# Initializing the analog temperature sensor and disclosing what pin it is connected to.
 adc = machine.ADC()
 apin = adc.channel(pin='P16')
 
