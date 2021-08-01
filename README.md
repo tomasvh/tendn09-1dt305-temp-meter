@@ -110,5 +110,11 @@ Notice the way the text is oriented on the FiPy and the expansion board, this is
 7. Now start VS code and install the [Pymakr plugin](https://docs.pycom.io/gettingstarted/software/vscode/) using this guide.
 8. Inside VS code Hold down CTRL+SHIFT+P on your keyboard to open command palette in VS Code and type "list", further commands will be listed below the input field, choose "Pymakr > Extra's > List serial ports". This will list all the com ports and most likely also copy the one it wants to the clipboard. Hold down CTRL+SHIFT+P again and enter "GLobal settings", chose the only option listed. This will open the global settings for Pymakr. Find the section "adress" and change it to the COM port you recieved in this process. press CTRL+S to save the settings.
 9. Now in VS code, go upp to the Terminal menu and choose new terminal. In the section that pops up in the bottom of the program window there is a subsection to the right. It should say list "Pymakr console", choose that one. Below said terminal is a colored board with a number of buttons, on the left hand side you should now have "Pymakr console" button with an "X" before it, push that button and it should now connect to the device.
-10. Congratulations, if everything is according to plan you should now be connected to the device.
+10. Congratulations, if everything is according to plan you should now be connected to the device and have the environment set up for the next steps.
+
+# 5 Physical Wiring of the device.
+
+Now to replicate my exact project you need to follow the following Schema:
+
+
 
