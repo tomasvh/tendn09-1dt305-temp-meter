@@ -131,6 +131,30 @@ The connection of the the solution is very self explanatory, on the charger ther
 
 # 5.1 Quick electrical calculation
 
+So how much does this device draw in terms of power, and will this little concept of self sufficiency be enough?
 
+To begin with, as we will see later when coming down to the code there has been some issues which makes it hard to implement a power saving mode on this project(I will not say it is impossible, i am just saying that i have not found a way to implement it so that the sensors keep working).
 
+Now, according to specifications from the [datasheet of the Fipy](https://www.mouser.com/datasheet/2/872/fipy-specsheet-1129442.pdf) these are the power drainage numbers:
+Fipy with no radios: 62.7 mA
+WiFi Access point(read idle): 126 mA
+WiFi client (in use) : 137 mA
+
+LoRa and SigFox modems are turned off by default if not in use and LTE has been turned off through code.
+
+And for the sensors:
+[Analog sensor](https://www.electrokit.com/uploads/productfile/41016/2243473.pdf): 12µA(Idle) and 15µA(Usage) 
+[Digital sensor](https://www.electrokit.com/uploads/productfile/41010/DS18B20.pdf): 1000nA(Standby) and 1.5mA(Usage)
+
+On Idle this would make the powerdraw: 62.7 + 126 + 0.012 = 188.712mA
+On Usage this would increase to: 62.7 + 137 + 0.015 + 1.5 = 201.215mA
+
+The program runs for about 10 seconds every 15 minutes which makes the usage negligable in the grand scheme, so we will be counting towards the idle.
+
+The Battery charger has a maximum output of 500mA, but the solarpanel only has a maximum output of 170mA
+
+With a rough estimation of the solarpanel working on average at optimal performance for for 12 hours what would produce an input of 85mA(wishful thinking except in summertime in Sweden, but its a estimation for the purpose of calculating).
+
+With the idle of 188.712mA minus the produced estimated 85mA average that leaves 103.712 mA consumption.
+Running this result in a [Battery life](https://www.digikey.com/en/resources/conversion-calculators/conversion-calculator-battery-life) calculator results in a life expectancy of 19.2 hours, which is in no way great.
 
