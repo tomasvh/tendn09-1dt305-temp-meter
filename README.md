@@ -136,6 +136,7 @@ So how much does this device draw in terms of power, and will this little concep
 To begin with, as we will see later when coming down to the code there has been some issues which makes it hard to implement a power saving mode on this project(I will not say it is impossible, i am just saying that i have not found a way to implement it so that the sensors keep working).
 
 Now, according to specifications from the [datasheet of the Fipy](https://www.mouser.com/datasheet/2/872/fipy-specsheet-1129442.pdf) these are the power drainage numbers:
+
 Fipy with no radios: 62.7 mA
 WiFi Access point(read idle): 126 mA
 WiFi client (in use) : 137 mA
@@ -143,6 +144,7 @@ WiFi client (in use) : 137 mA
 LoRa and SigFox modems are turned off by default if not in use and LTE has been turned off through code.
 
 And for the sensors:
+
 [Analog sensor](https://www.electrokit.com/uploads/productfile/41016/2243473.pdf): 12µA(Idle) and 15µA(Usage) 
 [Digital sensor](https://www.electrokit.com/uploads/productfile/41010/DS18B20.pdf): 1000nA(Standby) and 1.5mA(Usage)
 
