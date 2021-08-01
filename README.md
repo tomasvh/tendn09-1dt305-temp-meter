@@ -87,4 +87,12 @@ I then went with the two sensors, one analog for placement on the breadboard and
 Along with this comes the wires to connect the FiPy/LoPy to the breadboard and sensors, the one linked above is a set and contains all the wires needed for this project.
 
 My aim for this project has always been to create a sort of "fire and forget" device that continues to work without constantly exchanging batteries. In that perspective i choose to invest in a solarpanel and a rechargeable battery. It is however easier and slightly less costly to buy the alternative AAA batterypack listed in the second table.
+The solar panel and charger does not come with a double female connector cord needed to connect it to the actual device, and hence a single cord with a female, as well as a seperate JST-PH female connector was needed(I.e you will have to actually produce your own cord) becase this form of cord was virtually impossible to find.
+
+
+# 3.2 Computer setup
+
+Moving on from the actual physical part of the materials it is time to discuss the development environment.
+
+For this project i used a Windows 10 Pro based computer with the IDE Virtual Studio Code as my development environment/Code editor and Pymakr plugin.
 
