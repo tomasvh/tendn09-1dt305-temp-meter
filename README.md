@@ -164,3 +164,47 @@ With a rough estimation of the solarpanel working on average at optimal performa
 With the idle of 188.712mA minus the produced estimated 85mA average that leaves 103.712 mA consumption.
 Running this result in a [Battery life](https://www.digikey.com/en/resources/conversion-calculators/conversion-calculator-battery-life) calculator results in a life expectancy of 19.2 hours, which is in no way great.
 
+To counteract this a larger solar panel could be used, A good aim would probably be to have a solar panel with a capacity of around 400-450mA, this would let the device regain what was lost during the day and thus be or atleast be very close to self-sufficient. 
+**Important to note** is that you in this case should install a overcharge protection on the battery.
+
+# 6 Platform of choice
+
+I chose to run this project using Pycoms own platform Pybytes. When connected to this cloud service(which is free) your data is saved for one month and can through their portal be displayed in a very nice matter. It is also extremely easy to connect your device to this platform with easy to use tutorials. Especially through WiFi which we have used in this project.
+
+The platform also works as a point of access through which you can access and send on your data to different other cloud platforms(AWS, Google Cloud, Microsoft Azure) or by webhooks send it on to a custom service on for example your own server. This is done through the platforms "integration section".
+
+An expansion of this application that i myself have considered, but not implemented due to lack of time is to use above mentioned webhooks. The way this works is that every time the platform recieves a signal from your device, a POST call is sent to a URL of your choice(For example a node.js server that listens to this specific URL) which in turn saves it to a suitable database and displays it in a more accessable way than through the portal.
+
+You can also, as mentioned above use one of the existing large cloud platforms to collect the data to be accessed to external applications.
+
+It all comes down to what types of hardware/server capabilites you have yourself and what kind of wallet space you have for the implementation.
+
+As for this project i have chosen to stop the entire process at Pybytes and display the results there for now and will thus go no further in explaining the ways of handling the data.
+
+
+# 7 The code
+
+1. Now, Jumping off at the point of chapter 4 of this tutorial we must now create a folder from where we will upload our code to the device.
+When that is done, download the four files in the "src" folder in the repository and put them in the newly created folder.
+
+2. Now open said folder in VS code and create a folder named "lib". In this folder create a file called **"onewire.py"** and copy/paste the code from the Library section of the [Pycom deviced code](https://docs.pycom.io/tutorials/hardware/owd/). This is the library that allows for communication with this kind of sensor and is of outmost importance. Press CTRL+S to save the file.
+
+3. You should now have 4 files in the main folder along with above mentioned file:
+
+[boot.py](https://github.com/tomasvh/tendn09-1dt305-temp-meter/blob/main/src/boot.py), This is a start file that is run on boot-up, what it does is tell the device to run main.py
+
+[main.py](https://github.com/tomasvh/tendn09-1dt305-temp-meter/blob/main/src/main.py), this is the main file, it imports the analogTemp.py and ds18b20.py and runs them to collects the temperatures as well as sending it on to pybytes. It also controlls the idle timing, making the device wait 15 minutes between every send.
+
+[analogTemp.py](https://github.com/tomasvh/tendn09-1dt305-temp-meter/blob/main/src/analogTemp.py), This module controls the collection of data from the analog sensor and converts what is read into a celcius number that can be read by a human being.
+
+[ds18b20.py](https://github.com/tomasvh/tendn09-1dt305-temp-meter/blob/main/src/ds18b20.py), This module imports the onewire.py and uses it to collect digital signals from the sensor and convert it to a celcius number that can be read by a human being.
+
+4. Uploading the code is done by pushing the "upload" button in the bottom colored section where you found the "Pymakr console" button before.
+
+5. To make the application talk to pybytes you must first register an account on their platform 
+
+
+
+
+
+
