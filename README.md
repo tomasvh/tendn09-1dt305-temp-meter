@@ -53,3 +53,5 @@ So to begin with, i will present a table below containing the materials used for
 | [Bread board(Connector board)](https://www.electrokit.com/produkt/kopplingsdack-400-anslutningar/) | 5,9 Euro | Breadboard used to connect sensors to the device. |
 | [IP 65 devicebox(a bit oversized)](https://www.electrokit.com/produkt/apparatlada-gra-med-flans-222x146x75mm/) | 17,9 Euro | A plastic box for containing the device and protect it from water. |
 | [Micro USB cord(data))](https://www.electrokit.com/produkt/usb-kabel-a-hane-micro-b-5p-hane-1-8m/) | 3,9 Euro | 1,8 meter Micro USB cord for communication with device during development. |
+| [Insulation tape)](https://www.electrokit.com/produkt/eltejp-19mm-x-25m-svart/) | 2,5 Euro | Used to keep pins in place and protect solderings.  |
+| [Soldering set](https://www.electrokit.com/produkt/lodset-starter-kit/) | 14,9 Euro | Basic soldering set.  |
