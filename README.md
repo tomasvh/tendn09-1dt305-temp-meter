@@ -100,5 +100,10 @@ To set this up i would like to point your attention to [Pycoms own tutorial](htt
 
 1. First attach the FiPy to the expansion board the right way(i did not in the beginning which produced a very unneeded headache):
 ![Expansionboard setup](https://pycom.io/wp-content/uploads/2020/03/Website-Product-Shots-ExpB-front-LoPy4.png "Physical setup")
-2. 
+Notice the way the text is oriented on the FiPy and the expansion board, this is a very good indication on the right direction to put it.
+2. Connect the USB/Micro USB connector to the computer and to the expansion board.
+3. Download and Install [Visual Studio Code](https://code.visualstudio.com/).
+4. Download and Install the [Node LTS version](https://nodejs.org/en/), During the installation, make sure the installer adds node to "PATH".
+5. Now, hit the windows button and enter "Device Manager" in the search field and enter it. Manouver down to the ports section and check which COM port is connected.
+6. 
 
