@@ -51,3 +51,4 @@ So to begin with, i will present a table below containing the materials used for
 | [Resistor 4,7kohm](https://www.electrokit.com/produkt/motstand-kolfilm-0-25w-4-7ohm-4r7/) | 0,1 Euro | Resistor needed for the digital sensor |
 | [Connector wires between breadboard and expansionboard](https://www.electrokit.com/produkt/kopplingstrad-byglar-for-kopplingsdack-mjuka-65st/) | 3,9 Euro | Wires needed to connect sensors to the micro-computer |
 | [Bread board(Connector board)](https://www.electrokit.com/produkt/kopplingsdack-400-anslutningar/) | 5,9 Euro | Breadboard used to connect sensors to the device |
+| [IP 65 devicebox(a bit oversized)](https://www.electrokit.com/produkt/apparatlada-gra-med-flans-222x146x75mm/) | 17,9 Euro | A plastic box for containing the device and protect it from water |
