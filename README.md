@@ -90,9 +90,15 @@ My aim for this project has always been to create a sort of "fire and forget" de
 The solar panel and charger does not come with a double female connector cord needed to connect it to the actual device, and hence a single cord with a female, as well as a seperate JST-PH female connector was needed(I.e you will have to actually produce your own cord) becase this form of cord was virtually impossible to find.
 
 
-# 3.2 Computer setup
+# 4 Computer and IDE setup
 
 Moving on from the actual physical part of the materials it is time to discuss the development environment.
 
 For this project i used a Windows 10 Pro based computer with the IDE Virtual Studio Code as my development environment/Code editor and Pymakr plugin.
+
+To set this up i would like to point your attention to [Pycoms own tutorial](https://docs.pycom.io/gettingstarted/) for setting this up with a few additions.
+
+1. First attach the FiPy to the expansion board the right way(i did not in the beginning which produced a very unneeded headache):
+![Expansionboard setup](https://pycom.io/wp-content/uploads/2020/03/Website-Product-Shots-ExpB-front-LoPy4-100x100.png "Physical setup")
+2. 
 
