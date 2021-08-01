@@ -117,4 +117,6 @@ Notice the way the text is oriented on the FiPy and the expansion board, this is
 Now to replicate my exact project you need to follow the following Schema:
 
 
+![How to connect](https://github.com/tomasvh/tendn09-1dt305-temp-meter/blob/main/Pictures/fritzingDone.png "How to connect")
+
 
