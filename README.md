@@ -8,7 +8,7 @@ Student credentials: tend09(Linneaus University)
 Approximate time consumption to finish with tutorial: From scratch, 4-6 hours
 
 
-# Project Overview
+# 1 Project Overview
 
 This tutorial will show you how to build a simple temperature meter for monitoring air temperature from a sensor on the breadboard
 as well as water temperature from a digital waterproof sensor.
@@ -18,8 +18,10 @@ built in and imported libraries as well as how to connect it to Pybytes platform
 
 Furthermore I aim to introduce a way of getting this piece of hardware to be almost self sufficient when it comes to power.
 
+This project was spawned and realised during the summer course 1dt305 at Linnaeus University of Kalmar in Sweden.
 
-# Project Objectives
+
+# 2 Project Objectives
 
 Now to get started lets ask ourselves why you would build such a device?
 
@@ -36,13 +38,13 @@ Now, this intention back-fired slightly due to delivery issues(for LTE connectio
 However, for individuals that do not have their hot-tub, beach, pier or other measurement point where this type of dual sensor might come in handy outside wifi range, the current implementation will work marvelously.
 
 
-# Project Materials
+# 3 Project Materials
 
 So to begin with, i will present a table below containing the materials used for my project along with a description and links to where you can buy them(mostly in Sweden or from the main supplier). I will also add a table below the first one that describes possible additions and alternatives to some of the devices i used.
 
 | **Item**        | **Cost**           | **Description**  |
 | :------------ |:-------------| :-----|
-| [Fipy](https://pycom.io/product/fipy/)      | 65 Euro | The actual micro computer |
+| [Fipy](https://pycom.io/product/fipy/)      | 65 Euro | The actual development platform |
 | [Expansion board](https://pycom.io/product/expansion-board-3-0/)      | 17,5 Euro      |   Expansion board with powersupply and usb connector as well as sockets for pins. |
 | [Analog temperature sensor](https://www.electrokit.com/produkt/mcp9700a-to-92-temperaturgivare/) | 1.5 euro      |    A simple analog temperature sensor with pins. |
 | [Digital temperature sensor](https://www.electrokit.com/produkt/temperatursensor-vattentat-ds18b20/) | 18 Euro | A digital temperature sensor in water tight casing. |
@@ -55,3 +57,33 @@ So to begin with, i will present a table below containing the materials used for
 | [Micro USB cord(data))](https://www.electrokit.com/produkt/usb-kabel-a-hane-micro-b-5p-hane-1-8m/) | 3,9 Euro | 1,8 meter Micro USB cord for communication with device during development. |
 | [Insulation tape)](https://www.electrokit.com/produkt/eltejp-19mm-x-25m-svart/) | 2,5 Euro | Used to keep pins in place and protect solderings.  |
 | [Soldering set](https://www.electrokit.com/produkt/lodset-starter-kit/) | 14,9 Euro | Basic soldering set.  |
+| [JST-PH cord between charger and device](https://www.electrokit.com/produkt/batterisladd-jst-ph-2-pol-100mm/) | 1 Euro | Cord with 1 female JST-PH connector  |
+| [JST-PH female connector](https://www.electrokit.com/produkt/kontakthus-ph-2-pol-2mm/) | 0.2 Euro | Female JST-PH connector  |
+
+
+
+
+Above mentioned items are exactly everything used to realise this project, however, due to the fact that i did not manage to get my hands on a LTE Antenna in time for this project report you can actually get by with Pycoms LoPy microcomputer instead of the FiPy.
+
+
+| **Alternative Item**        | **Cost**           | **Description**  |
+| :------------ |:-------------| :-----|
+| [LoPy](https://pycom.io/product/lopy4/)      | 38,5 Euro | The cheaper kind of development platform |
+| [LTE antenna kit](https://pycom.io/product/lte-m-antenna-kit/)      | 9 Euro | The Antenna that never arrived |
+| [AAA Batterypack](https://www.electrokit.com/produkt/batterihallare-3xaaa-med-strombrytare-och-jst-kontakt/)      | 2.9 Euro | Alternative powersupply |
+
+**Observe** that this tutorial will in no way explain how to implement and connect the LTE connection.
+
+
+# 3.1 Further material motivation and considerations
+
+So after this brief overview of the materials it is time to explain the choices.
+I went with the FiPy initially for the LTE capability due to the fact that, before stepping in to the course, i thought the other communication protocols lacked the range.
+However, in hindsight a LoPy is quite enough to produce the project described. Along with this development platform an expansion board and breadboard is added for ease of use. 
+
+I then went with the two sensors, one analog for placement on the breadboard and one digital waterproof sensor with a cord. The latter of the two requires a 0,25w 4.7kohm resistor to work.
+
+Along with this comes the wires to connect the FiPy/LoPy to the breadboard and sensors, the one linked above is a set and contains all the wires needed for this project.
+
+My aim for this project has always been to create a sort of "fire and forget" device that continues to work without constantly exchanging batteries. In that perspective i choose to invest in a solarpanel and a rechargeable battery. It is however easier and slightly less costly to buy the alternative AAA batterypack listed in the second table.
+
