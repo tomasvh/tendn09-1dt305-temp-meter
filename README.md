@@ -43,12 +43,13 @@ So to begin with, i will present a table below containing the materials used for
 | **Item**        | **Cost**           | **Description**  |
 | :------------ |:-------------| :-----|
 | [Fipy](https://pycom.io/product/fipy/)      | 65 Euro | The actual micro computer |
-| [Expansion board](https://pycom.io/product/expansion-board-3-0/)      | 17,5 Euro      |   Expansion board with powersupply and usb connector as well as sockets for pins |
-| [Analog temperature sensor](https://www.electrokit.com/produkt/mcp9700a-to-92-temperaturgivare/) | 1.5 euro      |    A simple analog temperature sensor with pins |
-| [Digital temperature sensor](https://www.electrokit.com/produkt/temperatursensor-vattentat-ds18b20/) | 18 Euro | A digital temperature sensor in water tight casing |
-| [170 mA 5.5v solar panel](https://www.tinytronics.nl/shop/en/power/solar-panels/seeed-studio-solar-panel-5.5v-170ma-80x100mm-with-jst-ph-connector) | 4.5 Euro | 80x100mm solar panel with JST-PH female connector |
-| [Battery charger(max 500mA) with JST-PH male connectors](https://www.tinytronics.nl/shop/en/power/bms-and-chargers/li-ion-and-li-po/without-protection-circuit/cn3065-li-ion-solar-charger-500ma) | 4 Euro | A board with battercharging capabilities and throughput of power to main device |
-| [Resistor 4,7kohm](https://www.electrokit.com/produkt/motstand-kolfilm-0-25w-4-7ohm-4r7/) | 0,1 Euro | Resistor needed for the digital sensor |
-| [Connector wires between breadboard and expansionboard](https://www.electrokit.com/produkt/kopplingstrad-byglar-for-kopplingsdack-mjuka-65st/) | 3,9 Euro | Wires needed to connect sensors to the micro-computer |
-| [Bread board(Connector board)](https://www.electrokit.com/produkt/kopplingsdack-400-anslutningar/) | 5,9 Euro | Breadboard used to connect sensors to the device |
-| [IP 65 devicebox(a bit oversized)](https://www.electrokit.com/produkt/apparatlada-gra-med-flans-222x146x75mm/) | 17,9 Euro | A plastic box for containing the device and protect it from water |
+| [Expansion board](https://pycom.io/product/expansion-board-3-0/)      | 17,5 Euro      |   Expansion board with powersupply and usb connector as well as sockets for pins. |
+| [Analog temperature sensor](https://www.electrokit.com/produkt/mcp9700a-to-92-temperaturgivare/) | 1.5 euro      |    A simple analog temperature sensor with pins. |
+| [Digital temperature sensor](https://www.electrokit.com/produkt/temperatursensor-vattentat-ds18b20/) | 18 Euro | A digital temperature sensor in water tight casing. |
+| [170 mA 5.5v solar panel](https://www.tinytronics.nl/shop/en/power/solar-panels/seeed-studio-solar-panel-5.5v-170ma-80x100mm-with-jst-ph-connector) | 4.5 Euro | 80x100mm solar panel with JST-PH female connector. |
+| [Battery charger(max 500mA) with JST-PH male connectors](https://www.tinytronics.nl/shop/en/power/bms-and-chargers/li-ion-and-li-po/without-protection-circuit/cn3065-li-ion-solar-charger-500ma) | 4 Euro | A board with battercharging capabilities and throughput of power to main device. |
+| [Resistor 4,7kohm](https://www.electrokit.com/produkt/motstand-kolfilm-0-25w-4-7ohm-4r7/) | 0,1 Euro | Resistor needed for the digital sensor. |
+| [Connector wires between breadboard and expansionboard](https://www.electrokit.com/produkt/kopplingstrad-byglar-for-kopplingsdack-mjuka-65st/) | 3,9 Euro | Wires needed to connect sensors to the micro-computer. |
+| [Bread board(Connector board)](https://www.electrokit.com/produkt/kopplingsdack-400-anslutningar/) | 5,9 Euro | Breadboard used to connect sensors to the device. |
+| [IP 65 devicebox(a bit oversized)](https://www.electrokit.com/produkt/apparatlada-gra-med-flans-222x146x75mm/) | 17,9 Euro | A plastic box for containing the device and protect it from water. |
+| [Micro USB cord(data))](https://www.electrokit.com/produkt/usb-kabel-a-hane-micro-b-5p-hane-1-8m/) | 3,9 Euro | 1,8 meter Micro USB cord for communication with device during development. |
