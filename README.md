@@ -99,6 +99,6 @@ For this project i used a Windows 10 Pro based computer with the IDE Virtual Stu
 To set this up i would like to point your attention to [Pycoms own tutorial](https://docs.pycom.io/gettingstarted/) for setting this up with a few additions.
 
 1. First attach the FiPy to the expansion board the right way(i did not in the beginning which produced a very unneeded headache):
-![Expansionboard setup](https://pycom.io/wp-content/uploads/2020/03/Website-Product-Shots-ExpB-front-LoPy4-100x100.png "Physical setup")
+![Expansionboard setup](https://pycom.io/wp-content/uploads/2020/03/Website-Product-Shots-ExpB-front-LoPy4.png "Physical setup")
 2. 
 
