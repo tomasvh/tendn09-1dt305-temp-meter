@@ -138,7 +138,9 @@ To begin with, as we will see later when coming down to the code there has been 
 Now, according to specifications from the [datasheet of the Fipy](https://www.mouser.com/datasheet/2/872/fipy-specsheet-1129442.pdf) these are the power drainage numbers:
 
 Fipy with no radios: 62.7 mA
+
 WiFi Access point(read idle): 126 mA
+
 WiFi client (in use) : 137 mA
 
 LoRa and SigFox modems are turned off by default if not in use and LTE has been turned off through code.
@@ -146,9 +148,11 @@ LoRa and SigFox modems are turned off by default if not in use and LTE has been 
 And for the sensors:
 
 [Analog sensor](https://www.electrokit.com/uploads/productfile/41016/2243473.pdf): 12µA(Idle) and 15µA(Usage) 
+
 [Digital sensor](https://www.electrokit.com/uploads/productfile/41010/DS18B20.pdf): 1000nA(Standby) and 1.5mA(Usage)
 
 On Idle this would make the powerdraw: 62.7 + 126 + 0.012 = 188.712mA
+
 On Usage this would increase to: 62.7 + 137 + 0.015 + 1.5 = 201.215mA
 
 The program runs for about 10 seconds every 15 minutes which makes the usage negligable in the grand scheme, so we will be counting towards the idle.
