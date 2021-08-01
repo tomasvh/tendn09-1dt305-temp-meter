@@ -35,6 +35,8 @@ check when the bathing temperature has been reached.
 
 Now, this intention back-fired slightly due to delivery issues(for LTE connection) as well as the fact that my house, although it is in an area where LoRa and SigFox exists, is in a deep valley and as such in radio shadow (unable to connect to these types of services) the end result for my actual project, due to the distance to above mentioned hot-tub, is more towards the first comical description off application.
 
+That being said, for individuals that do live in an area with LoRa or SigFox coverage(without being in radio shadow) this project can still be a basis for an even better implementation of a more long range sensor.
+
 However, for individuals that do not have their hot-tub, beach, pier or other measurement point where this type of dual sensor might come in handy outside wifi range, the current implementation will work marvelously.
 
 
@@ -59,7 +61,6 @@ So to begin with, i will present a table below containing the materials used for
 | [Soldering set](https://www.electrokit.com/produkt/lodset-starter-kit/) | 14,9 Euro | Basic soldering set.  |
 | [JST-PH cord between charger and device](https://www.electrokit.com/produkt/batterisladd-jst-ph-2-pol-100mm/) | 1 Euro | Cord with 1 female JST-PH connector  |
 | [JST-PH female connector](https://www.electrokit.com/produkt/kontakthus-ph-2-pol-2mm/) | 0.2 Euro | Female JST-PH connector  |
-
 
 
 
