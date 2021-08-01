@@ -119,4 +119,18 @@ Now to replicate my exact project you need to follow the following Schema:
 
 ![How to connect](https://github.com/tomasvh/tendn09-1dt305-temp-meter/blob/main/Pictures/fritzingDone.png "How to connect")
 
+1. To start off with a disclaimer, in the upper left corner is the battery and solarpanel solution that i am utilizing, this can easily be exchanged towards a standard, non rechargable batterypack as mentioned earlier.
+
+The connection of the the solution is very self explanatory, on the charger there is a "solar panel in", a "Battery in" and a "system out". The system out cord needs assembling from the parts mentioned in the materials section.
+
+2. As you can see from the image i am using 2 power draws from the expansion board, 3v3 to the upper lane on the breadboard and VIN to the lower. This is due to the fact that the digital temperature sensor (DS18B20) does not work with the 3v3, it needs more power. The analog sensor however works absolutely fine with the 3v3, in fact, it is recommended to use it.
+
+3. From the horizontal power lanes where you connected the power you should now draw the power(red) to the vertical device lanes. Same goes for the ground(GND, black/blue) For the Analog sensor there is a slight issue on how to put it on the board, and which pin is supposed to be power and ground(i.e which way to face the sensor). Look at the datasheet for the sensor to figure out which way to turn it and what pin is what. For the digital sensor it is self explenatory as this sensor comes with colored cords where red is power, black is ground(gnd) and white is data.
+
+4. The data is then connected, Digital sensor to Pin 10 and Analog sensor to pin 16. Important is also the resistor that needs to be connected between the power lane for the digital sensor and the data lane.
+
+# 5.1 Quick electrical calculation
+
+
+
 
