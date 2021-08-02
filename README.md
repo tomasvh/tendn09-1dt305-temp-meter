@@ -8,7 +8,24 @@ Student credentials: tend09(Linneaus University)
 Approximate time consumption to finish with tutorial: From scratch, 4-6 hours
 
 
-# 1 Project Overview
+## Table of content 
+
+[Project Overview](https://github.com/tomasvh/tendn09-1dt305-temp-meter/edit/main/README.md#1)
+[Project Objectives]()
+[Project Materials]()
+[Further material motivation and considerations]()
+[Computer and IDE setup]()
+[Physical Wiring of the device.]()
+[Quick electrical calculation]()
+[Platform of choice]()
+[The code]()
+[Device and program connectivity]()
+[My own test of the device]()
+[Finisihing thoughts]()
+
+
+
+## 1 Project Overview{1}
 
 This tutorial will show you how to build a simple temperature meter for monitoring air temperature from a sensor on the breadboard
 as well as water temperature from a digital waterproof sensor.
@@ -21,7 +38,7 @@ Furthermore I aim to introduce a way of getting this piece of hardware to be alm
 This project was spawned and realised during the summer course 1dt305 at Linnaeus University of Kalmar in Sweden.
 
 
-# 2 Project Objectives
+## 2 Project Objectives{2}
 
 Now to get started lets ask ourselves why you would build such a device?
 
@@ -40,7 +57,7 @@ That being said, for individuals that do live in an area with LoRa or SigFox cov
 However, for individuals that do not have their hot-tub, beach, pier or other measurement point where this type of dual sensor might come in handy outside wifi range, the current implementation will work marvelously.
 
 
-# 3 Project Materials
+## 3 Project Materials{3}
 
 So to begin with, i will present a table below containing the materials used for my project along with a description and links to where you can buy them(mostly in Sweden or from the main supplier). I will also add a table below the first one that describes possible additions and alternatives to some of the devices i used.
 
@@ -76,7 +93,7 @@ Above mentioned items are exactly everything used to realise this project, howev
 **Observe** that this tutorial will in no way explain how to implement and connect the LTE connection.
 
 
-# 3.1 Further material motivation and considerations
+### 3.1 Further material motivation and considerations{3.1}
 
 So after this brief overview of the materials it is time to explain the choices.
 I went with the FiPy initially for the LTE capability due to the fact that, before stepping in to the course, i thought the other communication protocols lacked the range.
@@ -90,7 +107,7 @@ My aim for this project has always been to create a sort of "fire and forget" de
 The solar panel and charger does not come with a double female connector cord needed to connect it to the actual device, and hence a single cord with a female, as well as a seperate JST-PH female connector was needed(I.e you will have to actually produce your own cord) becase this form of cord was virtually impossible to find.
 
 
-# 4 Computer and IDE setup
+## 4 Computer and IDE setup{4}
 
 Moving on from the actual physical part of the materials it is time to discuss the development environment.
 
@@ -112,7 +129,7 @@ Notice the way the text is oriented on the FiPy and the expansion board, this is
 9. Now in VS code, go upp to the Terminal menu and choose new terminal. In the section that pops up in the bottom of the program window there is a subsection to the right. It should say list "Pymakr console", choose that one. Below said terminal is a colored board with a number of buttons, on the left hand side you should now have "Pymakr console" button with an "X" before it, push that button and it should now connect to the device.
 10. Congratulations, if everything is according to plan you should now be connected to the device and have the environment set up for the next steps.
 
-# 5 Physical Wiring of the device.
+## 5 Physical Wiring of the device.{5}
 
 Now to replicate my exact project you need to follow the following Schema:
 
@@ -129,7 +146,7 @@ The connection of the the solution is very self explanatory, on the charger ther
 
 4. The data is then connected, Digital sensor to Pin 10 and Analog sensor to pin 16. Important is also the resistor that needs to be connected between the power lane for the digital sensor and the data lane.
 
-# 5.1 Quick electrical calculation
+### 5.1 Quick electrical calculation{5.1}
 
 So how much does this device draw in terms of power, and will this little concept of self sufficiency be enough?
 
@@ -167,7 +184,7 @@ Running this result in a [Battery life](https://www.digikey.com/en/resources/con
 To counteract this a larger solar panel could be used, A good aim would probably be to have a solar panel with a capacity of around 400-450mA, this would let the device regain what was lost during the day and thus be or atleast be very close to self-sufficient. 
 **Important to note** is that you in this case should install a overcharge protection on the battery.
 
-# 6 Platform of choice
+## 6 Platform of choice{6}
 
 I chose to run this project using Pycoms own platform Pybytes. When connected to this cloud service(which is free) your data is saved for one month and can through their portal be displayed in a very nice matter. It is also extremely easy to connect your device to this platform with easy to use tutorials. Especially through WiFi which we have used in this project.
 
@@ -182,7 +199,7 @@ It all comes down to what types of hardware/server capabilites you have yourself
 As for this project i have chosen to stop the entire process at Pybytes and display the results there for now and will thus go no further in explaining the ways of handling the data.
 
 
-# 7 The code
+## 7 The code{7}
 
 1. Now, Jumping off at the point of chapter 4 of this tutorial we must now create a folder from where we will upload our code to the device.
 When that is done, download the four files in the "src" folder in this repository and put them in the newly created folder.
@@ -210,7 +227,7 @@ Through the interface in the signals you can add diagrams and also "place them o
 
 7. You should now be good to go to use the device and send information to pybytes to be displayed on your dashboard.
 
-# 8 Device and program connectivity
+## 8 Device and program connectivity{8}
 
 Now, what we have done throughout this project is set up a device and configure it to send information to Pybytes and there display it in a nice manner.
 The device will send data to the platform every 15 minutes through WiFi and the MQTT protocoll using the configuration file set up by Pybytes through the provisioning section(Step 5 in the previous section). The timing for this transfer of data is easily changed by changing the "sleepTime" variable in the main.py file on line 21.
@@ -223,7 +240,7 @@ In this case the sender is the device and Pybytes acts as the broker aswell as t
 
 The service from Pybytes makes life easy when it comes to setting up the connections through their configuration file, but it is entirely possible to set up these kinds of things yourself. but it will require a lot more code and knowledge on how the device works.
 
-# 9 My own test of the device
+## 9 My own test of the device{9}
 
 Part of the time spent writing this tutorial/report i ran a field test of the device using a glass of water acting as the "hot tub" and on battery power.
 I had not recieved the JST-PH connector needed to create the cord between charger and device so only the battery was used for this test.
@@ -234,6 +251,8 @@ There was also a very varied weather outside during the test(to which i had an o
 ![measurement result](https://github.com/tomasvh/tendn09-1dt305-temp-meter/blob/main/Pictures/Capture.JPG)
 
 As mentioned before Pybytes saves 1 month worth of data, so if you want a more persistant collection of temperature for statistical purposes or such matters i suggest anyone that choose to replicate this project to investigate the "Integration" section of Pybytes. This is their portal to sending data onwards to other locations as described previously. As for my own part, statistics was not interesting, as the purpose of this sensor was in fact to read the most recent reading and not to see change over time. However, this application and device, with a few modifications would most definately suit such purposes.
+
+## 10 Finisihing thoughts{10}
 
 
 
