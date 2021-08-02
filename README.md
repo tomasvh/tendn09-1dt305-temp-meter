@@ -185,11 +185,11 @@ As for this project i have chosen to stop the entire process at Pybytes and disp
 # 7 The code
 
 1. Now, Jumping off at the point of chapter 4 of this tutorial we must now create a folder from where we will upload our code to the device.
-When that is done, download the four files in the "src" folder in the repository and put them in the newly created folder.
+When that is done, download the four files in the "src" folder in this repository and put them in the newly created folder.
 
 2. Now open said folder in VS code and create a folder named "lib". In this folder create a file called **"onewire.py"** and copy/paste the code from the Library section of the [Pycom deviced code](https://docs.pycom.io/tutorials/hardware/owd/). This is the library that allows for communication with this kind of sensor and is of outmost importance. Press CTRL+S to save the file.
 
-3. You should now have 4 files in the main folder along with above mentioned file:
+3. You should now have 4 files in the main folder along with above mentioned file, by clicking these links you will go straight to the commented code:
 
 * [boot.py](https://github.com/tomasvh/tendn09-1dt305-temp-meter/blob/main/src/boot.py), This is a start file that is run on boot-up, what it does is tell the device to run main.py
 
