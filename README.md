@@ -10,18 +10,29 @@ Approximate time consumption to finish with tutorial: From scratch, 4-6 hours
 
 ## Table of content 
 
-[Project Overview](#project-overview)
-[Project Objectives](#project.objectives)
-[Project Materials](#project-materials)
-[Further material motivation and considerations]()
-[Computer and IDE setup]()
-[Physical Wiring of the device.]()
-[Quick electrical calculation]()
-[Platform of choice]()
-[The code]()
-[Device and program connectivity]()
-[My own test of the device]()
-[Finisihing thoughts]()
+[Project Overview](https://github.com/tomasvh/tendn09-1dt305-temp-meter/blob/main/README.md#1-project-overview)
+
+[Project Objectives](https://github.com/tomasvh/tendn09-1dt305-temp-meter/blob/main/README.md#2-project-objectives)
+
+[Project Materials](https://github.com/tomasvh/tendn09-1dt305-temp-meter/blob/main/README.md#3-project-materials)
+
+[Further material motivation and considerations](https://github.com/tomasvh/tendn09-1dt305-temp-meter/blob/main/README.md#31-further-material-motivation-and-considerations)
+
+[Computer and IDE setup](https://github.com/tomasvh/tendn09-1dt305-temp-meter/blob/main/README.md#4-computer-and-ide-setup)
+
+[Physical Wiring of the device.](https://github.com/tomasvh/tendn09-1dt305-temp-meter/blob/main/README.md#5-physical-wiring-of-the-device)
+
+[Quick electrical calculation](https://github.com/tomasvh/tendn09-1dt305-temp-meter/blob/main/README.md#51-quick-electrical-calculation)
+
+[Platform of choice](https://github.com/tomasvh/tendn09-1dt305-temp-meter/blob/main/README.md#6-platform-of-choice)
+
+[The code](https://github.com/tomasvh/tendn09-1dt305-temp-meter/blob/main/README.md#7-the-code)
+
+[Device and program connectivity](https://github.com/tomasvh/tendn09-1dt305-temp-meter/blob/main/README.md#8-device-and-program-connectivity)
+
+[My own test of the device](https://github.com/tomasvh/tendn09-1dt305-temp-meter/blob/main/README.md#9-my-own-test-of-the-device)
+
+[Finisihing thoughts](https://github.com/tomasvh/tendn09-1dt305-temp-meter/blob/main/README.md#10-finisihing-thoughts)
 
 
 
