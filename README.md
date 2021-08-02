@@ -191,13 +191,13 @@ When that is done, download the four files in the "src" folder in the repository
 
 3. You should now have 4 files in the main folder along with above mentioned file:
 
-[boot.py](https://github.com/tomasvh/tendn09-1dt305-temp-meter/blob/main/src/boot.py), This is a start file that is run on boot-up, what it does is tell the device to run main.py
+* [boot.py](https://github.com/tomasvh/tendn09-1dt305-temp-meter/blob/main/src/boot.py), This is a start file that is run on boot-up, what it does is tell the device to run main.py
 
-[main.py](https://github.com/tomasvh/tendn09-1dt305-temp-meter/blob/main/src/main.py), this is the main file, it imports the analogTemp.py and ds18b20.py and runs them to collects the temperatures as well as sending it on to pybytes. It also controlls the idle timing, making the device wait 15 minutes between every send.
+* [main.py](https://github.com/tomasvh/tendn09-1dt305-temp-meter/blob/main/src/main.py), this is the main file, it imports the analogTemp.py and ds18b20.py and runs them to collects the temperatures as well as sending it on to pybytes. It also controlls the idle timing, making the device wait 15 minutes between every send.
 
-[analogTemp.py](https://github.com/tomasvh/tendn09-1dt305-temp-meter/blob/main/src/analogTemp.py), This module controls the collection of data from the analog sensor and converts what is read into a celcius number that can be read by a human being.
+* [analogTemp.py](https://github.com/tomasvh/tendn09-1dt305-temp-meter/blob/main/src/analogTemp.py), This module controls the collection of data from the analog sensor and converts what is read into a celcius number that can be read by a human being.
 
-[ds18b20.py](https://github.com/tomasvh/tendn09-1dt305-temp-meter/blob/main/src/ds18b20.py), This module imports the onewire.py and uses it to collect digital signals from the sensor and convert it to a celcius number that can be read by a human being.
+* [ds18b20.py](https://github.com/tomasvh/tendn09-1dt305-temp-meter/blob/main/src/ds18b20.py), This module imports the onewire.py and uses it to collect digital signals from the sensor and convert it to a celcius number that can be read by a human being.
 
 4. Uploading the code is done by pushing the "upload" button in the bottom colored section where you found the "Pymakr console" button before.
 
