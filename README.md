@@ -229,6 +229,7 @@ Part of the time spent writing this tutorial/report i ran a field test of the de
 I had not recieved the JST-PH connector needed to create the cord between charger and device so only the battery was used for this test.
 The device ran for a number of hours and was manually disconnected at one point, i.e it did not run out of power.
 At one point(between 3.30 pm and 3.54 pm) i introduced a handful of ice to the glass of water to make the readings a little bit more interesting. The temperature dropped 13.5 degrees C and started to slowly climp upwards again after that.
+There was also a very varied weather outside during the test(to which i had an open window) which produced some interesting variations in the air temperature of the room as well which showed in the test.
 
 ![measurement result](https://github.com/tomasvh/tendn09-1dt305-temp-meter/blob/main/Pictures/Capture.JPG)
 
