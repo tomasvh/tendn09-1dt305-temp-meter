@@ -210,14 +210,27 @@ Through the interface in the signals you can add diagrams and also "place them o
 
 7. You should now be good to go to use the device and send information to pybytes to be displayed on your dashboard.
 
-# Device and progrm connectivity
+# 8 Device and program connectivity
 
 Now, what we have done throughout this project is set up a device and configure it to send information to Pybytes and there display it in a nice manner.
-The device will send data to the platform every 15 minutes through WiFi and the MQTT protocoll using the configuration file set up by Pybytes through the provisioning section(Step 5 in the previous section).
+The device will send data to the platform every 15 minutes through WiFi and the MQTT protocoll using the configuration file set up by Pybytes through the provisioning section(Step 5 in the previous section). The timing for this transfer of data is easily changed by changing the "sleepTime" variable in the main.py file on line 21.
+Making the device send more often will however increase the power draw slightly, but as this device does not go into Deep Sleep but only works on delay time, the difference should be slight.
 
-MQTT is a messaging standard used for connection and communication messages to and from IoT devices.
+WiFi as you probably know is a protocoll for short range and high traffic. It is used all around us and is a way to connect all forms of devices to the internet through access points, routers or mesh systems. Most of the time it runs on the 2,4ghz or 5ghz bands.
+
+MQTT is a messaging standard used for connection and communication messages to and from IoT devices. It works in a Client(sender) to Broker to Client(Subscriber) way.
+In this case the sender is the device and Pybytes acts as the broker aswell as the subscribing client in the form of data collection and displaying.
 
 The service from Pybytes makes life easy when it comes to setting up the connections through their configuration file, but it is entirely possible to set up these kinds of things yourself. but it will require a lot more code and knowledge on how the device works.
+
+# 9 My own test of the device
+
+Part of the time spent writing this tutorial/report i ran a field test of the device using a glass of water acting as the "hot tub" and on battery power.
+I had not recieved the JST-PH connector needed to create the cord between charger and device so only the battery was used for this test.
+The device ran for a number of hours and was manually disconnected at one point, i.e it did not run out of power.
+At one point(between 3.30 pm and 3.54 pm) i introduced a handful of ice to the glass of water to make the readings a little bit more interesting. The temperature dropped 13.5 degrees C and started to slowly climp upwards again after that.
+
+![measurement result](https://github.com/tomasvh/tendn09-1dt305-temp-meter/blob/main/Pictures/Capture.JPG)
 
 
 
