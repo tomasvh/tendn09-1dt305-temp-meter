@@ -204,6 +204,21 @@ When that is done, download the four files in the "src" folder in this repositor
 5. To make the application talk to pybytes you must first register an account on [their platform](https://sso.pycom.io/login/?client_id=pycom&redirect_uri=https%3A%2F%2Fpyauth.pybytes.pycom.io%2Fauth_code%2Fcallback&scope=profile&response_type=code&state=pybytes-browser), register the device and then choose WiFi as your network of choice using this very nice and clear [tutorial](https://docs.pycom.io/pybytes/gettingstarted/).
 What this tutorial process does is to connect your device to Pybytes and update your device through a piece of software and a token key. It also creates a configuration file on your device which Pybytes then uses to connect through WiFi to upload data to the platform. **Observe:** During this process you will have to have your device connected through USB and VS code shut down.
 
+6. After this you will have to define two signals on your Pybytes platform, number 1 and 2, the first signal this program and device will send is the analog temperature on the breadboard. The second is the digital waterproof sensor. Naming convention of these signals is up completely up to you.
+
+Through the interface in the signals you can add diagrams and also "place them on dashboard" which will be your main view for the device. You can configure your dashboard in any way you would like.
+
+7. You should now be good to go to use the device and send information to pybytes to be displayed on your dashboard.
+
+# Device and progrm connectivity
+
+Now, what we have done throughout this project is set up a device and configure it to send information to Pybytes and there display it in a nice manner.
+The device will send data to the platform every 15 minutes through WiFi and the MQTT protocoll using the configuration file set up by Pybytes through the provisioning section(Step 5 in the previous section).
+
+MQTT is a messaging standard used for connection and communication messages to and from IoT devices.
+
+The service from Pybytes makes life easy when it comes to setting up the connections through their configuration file, but it is entirely possible to set up these kinds of things yourself. but it will require a lot more code and knowledge on how the device works.
+
 
 
 
