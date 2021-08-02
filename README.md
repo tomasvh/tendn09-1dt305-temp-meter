@@ -228,10 +228,12 @@ The service from Pybytes makes life easy when it comes to setting up the connect
 Part of the time spent writing this tutorial/report i ran a field test of the device using a glass of water acting as the "hot tub" and on battery power.
 I had not recieved the JST-PH connector needed to create the cord between charger and device so only the battery was used for this test.
 The device ran for a number of hours and was manually disconnected at one point, i.e it did not run out of power.
-At one point(between 3.30 pm and 3.54 pm) i introduced a handful of ice to the glass of water to make the readings a little bit more interesting. The temperature dropped 13.5 degrees C and started to slowly climp upwards again after that.
+At one point(between 3.30 pm and 3.54 pm) i introduced a handful of ice to the glass of water to make the readings a little bit more interesting. The temperature dropped 13.5 degrees C and started to slowly climb upwards again after that.
 There was also a very varied weather outside during the test(to which i had an open window) which produced some interesting variations in the air temperature of the room as well which showed in the test.
 
 ![measurement result](https://github.com/tomasvh/tendn09-1dt305-temp-meter/blob/main/Pictures/Capture.JPG)
+
+As mentioned before Pybytes saves 1 month worth of data, so if you want a more persistant collection of temperature for statistical purposes or such matters i suggest anyone that choose to replicate this project to investigate the "Integration" section of Pybytes. This is their portal to sending data onwards to other locations as described previously. As for my own part, statistics was not interesting, as the purpose of this sensor was in fact to read the most recent reading and not to see change over time. However, this application and device, with a few modifications would most definately suit such purposes.
 
 
 
