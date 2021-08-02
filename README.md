@@ -48,6 +48,10 @@ Furthermore, I aim to introduce a way of getting this piece of hardware to be al
 
 This project was spawned and realised during the summer course 1dt305 at Linnaeus University of Kalmar in Sweden.
 
+[Back to top...](https://github.com/tomasvh/tendn09-1dt305-temp-meter/blob/main/README.md#table-of-content)
+
+
+
 
 ## 2 Project Objectives
 
@@ -67,6 +71,7 @@ That being said, for individuals that do live in an area with LoRa or SigFox cov
 
 However, for individuals that do not have their hot-tub, beach, pier or other measurement point where this type of dual sensor might come in handy outside Wi-Fi range, the current implementation will work marvellously.
 
+[Back to top...](https://github.com/tomasvh/tendn09-1dt305-temp-meter/blob/main/README.md#table-of-content)
 
 ## 3 Project Materials
 
@@ -103,6 +108,8 @@ Above mentioned items are exactly everything used to realise this project, howev
 
 **Observe** that this tutorial will in no way explain how to implement and connect the LTE connection.
 
+[Back to top...](https://github.com/tomasvh/tendn09-1dt305-temp-meter/blob/main/README.md#table-of-content)
+
 
 ### 3.1 Further material motivation and considerations
 
@@ -116,6 +123,8 @@ Along with this comes the wires to connect the FiPy/LoPy to the breadboard and s
 
 My aim for this project has always been to create a sort of "fire and forget" device that continues to work without constantly exchanging batteries. In that perspective i choose to invest in a solar panel and a rechargeable battery. It is however easier and slightly less costly to buy the alternative AAA battery pack listed in the second table.
 The solar panel and charger does not come with a double female connector cord needed to connect it to the actual device, and hence a single cord with a female, as well as a separate JST-PH female connector was needed(I.e you will have to actually produce your own cord) because this form of cord was virtually impossible to find.
+
+[Back to top...](https://github.com/tomasvh/tendn09-1dt305-temp-meter/blob/main/README.md#table-of-content)
 
 
 ## 4 Computer and IDE setup
@@ -140,6 +149,8 @@ Notice the way the text is oriented on the FiPy and the expansion board, this is
 9. Now in VS code, go up to the Terminal menu and choose new terminal. In the section that pops up in the bottom of the program window there is a subsection to the right. It should say list "Pymakr console", choose that one. Below said terminal is a coloured board with a number of buttons, on the left-hand side you should now have "Pymakr console" button with an "X" before it, push that button and it should now connect to the device.
 10. Congratulations, if everything is according to plan you should now be connected to the device and have the environment set up for the next steps.
 
+[Back to top...](https://github.com/tomasvh/tendn09-1dt305-temp-meter/blob/main/README.md#table-of-content)
+
 ## 5 Physical Wiring of the device
 
 Now to replicate my exact project you need to follow the following Schema:
@@ -156,6 +167,8 @@ The connection of the solution is very self explanatory, on the charger there is
 3. From the horizontal power lanes where you connected the power you should now draw the power(red) to the vertical device lanes. Same goes for the ground(GND, black/blue) For the Analog sensor there is a slight issue on how to put it on the board, and which pin is supposed to be power and ground(i.e. which way to face the sensor). Look at the datasheet for the sensor to figure out which way to turn it and what pin is what. For the digital sensor it is self explanatory as this sensor comes with coloured cords where red is power, black is ground(gnd) and white is data.
 
 4. The data is then connected, Digital sensor to Pin 10 and Analog sensor to pin 16. Important is also the resistor that needs to be connected between the power lane for the digital sensor and the data lane.
+
+[Back to top...](https://github.com/tomasvh/tendn09-1dt305-temp-meter/blob/main/README.md#table-of-content)
 
 ### 5.1 Quick electrical calculation
 
@@ -195,6 +208,8 @@ Running this result in a [Battery life calculator](https://www.digikey.com/en/re
 To counteract this a larger solar panel could be used, A good aim would probably be to have a solar panel with a capacity of around 400-450mA, this would let the device regain what was lost during the day and thus be or at least be very close to self-sufficient. 
 **Important to note** is that you in this case should install a overcharge protection on the battery.
 
+[Back to top...](https://github.com/tomasvh/tendn09-1dt305-temp-meter/blob/main/README.md#table-of-content)
+
 ## 6 Platform of choice
 
 I chose to run this project using Pycoms own platform Pybytes. When connected to this cloud service (which is free) your data is saved for one month and can through their portal be displayed in a very nice manner. It is also extremely easy to connect your device to this platform with easy-to-use tutorials. Especially through Wi-Fi which we have used in this project.
@@ -208,6 +223,8 @@ You can also, as mentioned above use one of the existing large cloud platforms t
 It all comes down to what types of hardware/server capabilities you have yourself and what kind of wallet space you have for the implementation.
 
 As for this project i have chosen to stop the entire process at Pybytes and display the results there for now and will thus go no further in explaining the ways of handling the data.
+
+[Back to top...](https://github.com/tomasvh/tendn09-1dt305-temp-meter/blob/main/README.md#table-of-content)
 
 
 ## 7 The code
@@ -238,6 +255,8 @@ Through the interface in the signals, you can add diagrams and also "place them 
 
 7. You should now be good to go to use the device and send information to pybytes to be displayed on your dashboard.
 
+[Back to top...](https://github.com/tomasvh/tendn09-1dt305-temp-meter/blob/main/README.md#table-of-content)
+
 ## 8 Device and program connectivity
 
 Now, what we have done throughout this project is set up a device and configure it to send information to Pybytes and there display it in a nice manner.
@@ -251,6 +270,8 @@ In this case the sender is the device and Pybytes acts as the broker as well as 
 
 The service from Pybytes makes life easy when it comes to setting up the connections through their configuration file, but it is entirely possible to set up these kinds of things yourself. but it will require a lot more code and knowledge on how the device works.
 
+[Back to top...](https://github.com/tomasvh/tendn09-1dt305-temp-meter/blob/main/README.md#table-of-content)
+
 ## 9 My own test of the device
 
 Part of the time spent writing this tutorial/report i ran a field test of the device using a glass of water acting as the "hot tub" and on battery power.
@@ -262,6 +283,8 @@ There was also a very varied weather outside during the test (to which I had an 
 ![measurement result](https://github.com/tomasvh/tendn09-1dt305-temp-meter/blob/main/Pictures/Capture.JPG)
 
 As mentioned before Pybytes saves 1 month worth of data, so if you want a more persistent collection of temperature for statistical purposes or such matters i suggest anyone that choose to replicate this project to investigate the "Integration" section of Pybytes. This is their portal to sending data onwards to other locations as described previously. As for my own part, statistics was not interesting, as the purpose of this sensor was in fact to read the most recent reading and not to see change over time. However, this application and device, with a few modifications would most definitely suit such purposes.
+
+[Back to top...](https://github.com/tomasvh/tendn09-1dt305-temp-meter/blob/main/README.md#table-of-content)
 
 ## 10 Finishing thoughts
 
@@ -281,6 +304,8 @@ However, despite this i really enjoyed this brief and shallow dip into the world
 A big shout out for the teachers and teachers-assistants who made this course what it was. It was a very awarding course.
 
 Thank you!
+
+[Back to top...](https://github.com/tomasvh/tendn09-1dt305-temp-meter/blob/main/README.md#table-of-content)
 
 
 
