@@ -190,7 +190,7 @@ The Battery charger has a maximum output of 500mA, but the solar panel only has 
 With a rough estimation of the solar panel working on average at optimal performance for 12 hours what would produce an input of 85mA (wishful thinking except in summertime in Sweden, but its an estimation for the purpose of calculating).
 
 With the idle of 188.712mA minus the produced estimated 85mA average that leaves 103.712 mA consumption.
-Running this result in a [Battery life](https://www.digikey.com/en/resources/conversion-calculators/conversion-calculator-battery-life) calculator results in a life expectancy of 19.2 hours, which is in no way great.
+Running this result in a [Battery life calculator](https://www.digikey.com/en/resources/conversion-calculators/conversion-calculator-battery-life) results in a life expectancy of 19.2 hours, which is in no way great.
 
 To counteract this a larger solar panel could be used, A good aim would probably be to have a solar panel with a capacity of around 400-450mA, this would let the device regain what was lost during the day and thus be or at least be very close to self-sufficient. 
 **Important to note** is that you in this case should install a overcharge protection on the battery.
