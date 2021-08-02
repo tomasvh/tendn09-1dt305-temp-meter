@@ -292,6 +292,11 @@ As mentioned before Pybytes saves 1 month worth of data, so if you want a more p
 
 So, Lets start with pictures of my project as it stands today:
 
+![Final result 1](https://github.com/tomasvh/tendn09-1dt305-temp-meter/blob/main/Pictures/connected_items.jpg)
+
+And with the containment box for the final project execution(once the LTE antenna comes along):
+
+![Final result 2](https://github.com/tomasvh/tendn09-1dt305-temp-meter/blob/main/Pictures/whole_device.jpg)
 
 My thoughts on this course and this project are numerous but to start somewhere, lets discuss my thoughts on the result.
 
