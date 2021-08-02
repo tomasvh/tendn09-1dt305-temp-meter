@@ -265,7 +265,22 @@ As mentioned before Pybytes saves 1 month worth of data, so if you want a more p
 
 ## 10 Finisihing thoughts
 
+So Lets start with pictures of my project as it stands today:
 
+
+My thoughts on this course and this project are numerous but to start somewhere, lets discuss my thoughts on the result.
+
+From my personal point of view the result of my own project is somewhat of a very funny disaster. Not much went my way with deliveries and connectivity issues that completely crushed my plans on producing a sensor device that i could actually use for the purpose it was intended. Most of my time went to explore the two LoRa networks and SigFox networks and try to figure out if it was my code or something else that failed my connection. Well, as it turns out it was radio shadow because my area, according to the connectivity maps, have coverage and close by nodes. I had bought a sim card for LTE but the antenna did not arrive on time for this tutorial so in the end i went with a very simple and unexiting implementation of a short range sensor device.
+
+Moving on from my connectivity issues was the sensors itself. One was very simple and worked out of the box, one was more complicated when it comes to Pycom devices and did not play well with the standard way of implementing deep sleep for the device. It might very well be a implementation error on my part, but all my searches did not produce a valid answer as to why the sensor failed to work at all when combined with deep sleep, in fact, the device didn´t want to reboot(which is what it should be doing when deep sleep ends) at all.
+
+All these issues completely swallowed my time-schedule and as such the intended end result with a backend node.js application (running on my own webserver) listening in on webhook calls from Pybytes and then rendering a page with the latest temperature measurement sort of fell on its back due to lack of time.
+
+However, despite this i really enjoyed this brief and shallow dip into the world of hardware IoT programming, and when time permits i will most definately continue dabbling with it.
+
+A big shout out for the teachers and teachers-assistants who made this course what it was. It was a very awarding course.
+
+Thank you!
 
 
 
