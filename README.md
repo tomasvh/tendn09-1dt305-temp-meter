@@ -197,7 +197,7 @@ To counteract this a larger solar panel could be used, A good aim would probably
 
 ## 6 Platform of choice
 
-I chose to run this project using Pycoms own platform Pybytes. When connected to this cloud service (which is free) your data is saved for one month and can through their portal be displayed in a very nice matter. It is also extremely easy to connect your device to this platform with easy-to-use tutorials. Especially through Wi-Fi which we have used in this project.
+I chose to run this project using Pycoms own platform Pybytes. When connected to this cloud service (which is free) your data is saved for one month and can through their portal be displayed in a very nice manner. It is also extremely easy to connect your device to this platform with easy-to-use tutorials. Especially through Wi-Fi which we have used in this project.
 
 The platform also works as a point of access through which you can access and send on your data to different other cloud platforms (AWS, Google Cloud, Microsoft Azure) or by webhooks send it on to a custom service on for example your own server. This is done through the platforms "integration section".
 
