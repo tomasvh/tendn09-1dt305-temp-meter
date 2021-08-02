@@ -1,4 +1,4 @@
-# Tutorial on how to build an Air and Water temperature meter powered by solar-panel and battery
+# Tutorial on how to build an Air and Water temperature measurement device powered by solar-panel and battery
 A simple project for a water and air temperature meter and tutorial how to implement it and transfer data to pybytes.
 
 Author: Tomas Marx-Raacz von Hidvég
