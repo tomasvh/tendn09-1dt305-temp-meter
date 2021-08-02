@@ -5,6 +5,8 @@ Author: Tomas Marx-Raacz von Hidvég
 
 Student credentials: tend09(Linnaeus University)
 
+Course: Applied IoT, 1dt305
+
 Approximate time consumption to finish with tutorial: From scratch, 4-6 hours
 
 
