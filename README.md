@@ -32,7 +32,7 @@ Approximate time consumption to finish with tutorial: From scratch, 4-6 hours
 
 [My own test of the device](https://github.com/tomasvh/tendn09-1dt305-temp-meter/blob/main/README.md#9-my-own-test-of-the-device)
 
-[Finishing thoughts](https://github.com/tomasvh/tendn09-1dt305-temp-meter/blob/main/README.md#10-finisihing-thoughts)
+[Finishing thoughts](https://github.com/tomasvh/tendn09-1dt305-temp-meter/blob/main/README.md#10-finishing-thoughts)
 
 
 
