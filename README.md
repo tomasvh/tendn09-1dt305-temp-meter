@@ -201,7 +201,7 @@ When that is done, download the four files in the "src" folder in the repository
 
 4. Uploading the code is done by pushing the "upload" button in the bottom colored section where you found the "Pymakr console" button before.
 
-5. To make the application talk to pybytes you must first register an account on their platform, register the device and then choose WiFi as your network of choice.
+5. To make the application talk to pybytes you must first register an account on [their platform](https://sso.pycom.io/login/?client_id=pycom&redirect_uri=https%3A%2F%2Fpyauth.pybytes.pycom.io%2Fauth_code%2Fcallback&scope=profile&response_type=code&state=pybytes-browser), register the device and then choose WiFi as your network of choice.
 Pybytes have a very nice and clear [tutorial](https://docs.pycom.io/pybytes/gettingstarted/) on how this is done. What this tutorial process does is to connect your device to Pybytes and update your device through a piece of software and a token key. It also creates a configuration file on your device which Pybytes then uses to connect through WiFi to upload data to the platform. **Observe:** During this process you will have to have your device connected through USB and VS code shut down.
 
 
